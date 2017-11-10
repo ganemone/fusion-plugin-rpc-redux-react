@@ -12,7 +12,7 @@ test('plugin', t => {
   };
   const RPCRedux = Plugin({handlers, EventEmitter});
   const mockCtx = {headers: {}};
-  t.equal(typeof RPCRedux.of(mockCtx).test, 'function');
+  t.equal(typeof RPCRedux.of(mockCtx).request, 'function');
   t.end();
 });
 
