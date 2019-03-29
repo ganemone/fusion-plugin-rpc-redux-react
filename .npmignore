@@ -1,0 +1,13 @@
+# from .gitignore
+node_modules/
+dist/
+dist-tests/
+coverage/
+.nyc_output/
+
+.DS_Store
+npm-debug.log
+yarn-error.log
+
+# ignoring tests
+src/__tests__/
